@@ -1,0 +1,48 @@
+* {
+	font-family: 'tildasans';
+}
+@media (max-width: 426px) {
+	.header {
+		height: 500px;
+		background: radial-gradient(
+			circle,
+			rgba(26, 33, 24, 1) 100%,
+			rgba(65, 98, 44, 1) 100%
+		);
+	}
+
+	.header__content {
+		padding: 7vw 3.5vw 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.header__logo {
+		display: flex;
+		color: #fff;
+		height: fit-content;
+		width: fit-content;
+		gap: 1.2vw;
+	}
+
+	.header__logo-img {
+		width: 10vw;
+	}
+	.header__logo-block {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.header__logo-h1 {
+		font-size: 3.2vw;
+		font-weight: 600;
+		line-height: 15px;
+	}
+	.header__logo-h2 {
+		font-weight: 300;
+		opacity: 0.5;
+		font-size: 3vw;
+		line-height: 13px;
+	}
+}
