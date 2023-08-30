@@ -136,4 +136,37 @@
 		display: flex;
 		gap: 5px;
 	}
+
+	.main__header {
+		background-color: #000;
+		color: #fff;
+		padding: 15vw 3.5vw 20vw;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 3vw;
+	}
+	.main__header-title {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		font-size: 13vw;
+		letter-spacing: -3px;
+		flex-wrap: nowrap;
+		line-height: 14vw;
+	}
+	.main__header-title_yellow {
+		color: #ecddb8;
+	}
+	.main__header-title_white {
+	}
+	.main__header-logo {
+		width: 15vw;
+	}
+	.main__header-p {
+		margin-top: 3vw;
+		text-align: center;
+		opacity: 0.8;
+		font-weight: 400;
+	}
 }
