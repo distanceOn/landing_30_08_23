@@ -71,7 +71,7 @@
 		color: #83f4c7;
 	}
 	.header__button {
-		background-image: url(../assets/Group2089451.jpg);
+		background-image: url(../assets/imgs/Group2089451.jpg);
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -102,5 +102,38 @@
 		font-weight: 300;
 		text-align: center;
 		font-size: 4vw;
+	}
+
+	.moments {
+		background-color: #000;
+		padding: 10vw 3.5vw 40vw;
+		display: flex;
+		flex-direction: column;
+		gap: 10vw;
+	}
+	.moments__card {
+		display: flex;
+		gap: 10px;
+	}
+	.moments__card-block {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.moments__card-img {
+		width: 15vw;
+		height: 18vw;
+	}
+	.moments__card-h5 {
+		color: #ecddb8;
+		margin: 0;
+		font-size: 5vw;
+	}
+	.moments__card-p {
+		opacity: 0.9;
+		font-size: 4vw;
+		color: #fff;
+		display: flex;
+		gap: 5px;
 	}
 }
