@@ -3,12 +3,13 @@
 }
 @media (max-width: 426px) {
 	.header {
-		height: 500px;
-		background: radial-gradient(
-			circle,
-			rgba(26, 33, 24, 1) 100%,
-			rgba(65, 98, 44, 1) 100%
+		height: fit-content;
+		background: linear-gradient(
+			0deg,
+			rgba(0, 0, 0, 1) 11%,
+			rgba(21, 50, 3, 1) 86%
 		);
+		padding-bottom: 5vw;
 	}
 
 	.header__content {
@@ -24,6 +25,7 @@
 		height: fit-content;
 		width: fit-content;
 		gap: 1.2vw;
+		margin-bottom: 6vw;
 	}
 
 	.header__logo-img {
@@ -44,5 +46,61 @@
 		opacity: 0.5;
 		font-size: 3vw;
 		line-height: 13px;
+	}
+	.header__toptext {
+		display: flex;
+		flex-direction: column;
+		gap: 2vw;
+	}
+	.header__toptext-1 {
+		color: #ebdcb7;
+		font-size: 4vw;
+		font-weight: 800;
+		line-height: 34px;
+		text-align: center;
+		letter-spacing: -1px;
+	}
+	.header__toptext-2 {
+		color: #fff;
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 18px;
+		text-align: center;
+	}
+	.header__toptext-2_green {
+		color: #83f4c7;
+	}
+	.header__button {
+		background-image: url(../assets/Group2089451.jpg);
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		border: none;
+		border-radius: 9px;
+		width: 100%;
+		height: 23.82vw;
+		box-shadow: 0px 2px 2px #337fd6;
+		margin-top: 8vw;
+	}
+	.header__button-link {
+		display: flex;
+		justify-content: center;
+		gap: 10px;
+		align-items: center;
+		text-decoration: none;
+		color: #ff8562;
+		font-size: 4.2vw;
+		letter-spacing: 1vw;
+		font-weight: 600;
+	}
+	.header__button-img {
+		width: 21px;
+	}
+	.header__p {
+		margin-top: 5vw;
+		color: #fff;
+		font-weight: 300;
+		text-align: center;
+		font-size: 4vw;
 	}
 }
