@@ -253,7 +253,10 @@
 
 	.main__results {
 		background: #000;
-		padding: 5vw 3.5vw 15vw;
+		padding: 5vw 3.5vw 30vw;
+		display: flex;
+		flex-direction: column;
+		gap: 10vw;
 	}
 
 	.main__results-header {
@@ -276,12 +279,6 @@
 		text-align: center;
 		font-weight: 200;
 		line-height: 5vw;
-	}
-
-	.main__results {
-		display: flex;
-		flex-direction: column;
-		gap: 10vw;
 	}
 
 	.carousel-container {
@@ -326,5 +323,53 @@
 		display: flex;
 		align-items: center;
 		gap: 4vw;
+	}
+
+	.main__anna {
+		background-color: #000;
+	}
+
+	.anna__img {
+		height: 150vw;
+		background-image: url(../assets/imgs/Anna_photo.jpeg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position-x: -18vw;
+		margin-top: -20vw;
+		position: relative;
+	}
+	.anna__h {
+		position: absolute;
+		bottom: 0;
+		padding-bottom: 6vw;
+		padding-left: 25vw;
+		color: #ecddb8;
+		font-size: 5vw;
+		font-weight: 800;
+	}
+
+	.anna__text {
+		background: linear-gradient(
+			180deg,
+			rgba(0, 0, 0, 1) 0%,
+			rgba(85, 85, 85, 1) 0%,
+			rgba(0, 0, 0, 1) 82%
+		);
+		padding: 12vw 3.5vw;
+		font-size: 4vw;
+	}
+
+	.anna__text-img {
+		width: 9vw;
+	}
+
+	.anna__text-block {
+		background-color: #2f2f2f;
+		padding: 10vw 8vw 20vw;
+		color: #fff;
+		border-radius: 3vw;
+		display: flex;
+		flex-direction: column;
+		gap: 5vw;
 	}
 }
