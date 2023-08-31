@@ -250,4 +250,81 @@
 	.midollar {
 		height: 12vw;
 	}
+
+	.main__results {
+		background: #000;
+		padding: 5vw 3.5vw 15vw;
+	}
+
+	.main__results-header {
+		display: flex;
+		flex-direction: column;
+		gap: 4vw;
+	}
+
+	.mrh1 {
+		color: #ebdcb7;
+		text-align: center;
+		font-size: 10.5vw;
+		letter-spacing: -2px;
+		line-height: 12vw;
+	}
+	.mrh2 {
+		color: #fff;
+		font-size: 5vw;
+		letter-spacing: 2px;
+		text-align: center;
+		font-weight: 200;
+		line-height: 5vw;
+	}
+
+	.main__results {
+		display: flex;
+		flex-direction: column;
+		gap: 10vw;
+	}
+
+	.carousel-container {
+		position: relative;
+		width: 300px;
+		overflow: hidden;
+		border-radius: 10vw;
+		border: 5px solid rgb(66, 58, 58);
+		margin-bottom: -5vw;
+	}
+
+	.carousel {
+		display: flex;
+		transition: transform 0.5s ease-in-out;
+	}
+
+	.carousel img {
+		width: 100%;
+	}
+
+	.prev-button {
+		transform: rotate(180deg);
+		border: none;
+		background-color: #60c0d1;
+		border-radius: 50%;
+	}
+	.prev-button svg {
+		width: 10vw;
+		height: 12vw;
+	}
+
+	.next-button {
+		border: none;
+		background-color: #60c0d1;
+		border-radius: 50%;
+	}
+	.next-button svg {
+		width: 10vw;
+		height: 12vw;
+	}
+	.mrcar {
+		display: flex;
+		align-items: center;
+		gap: 4vw;
+	}
 }
