@@ -430,4 +430,102 @@
 	.about__card-head img {
 		width: 5vw;
 	}
+
+	.blocks {
+		background: #000;
+		padding: 0 3.5vw 50vw;
+	}
+	.blocks__card {
+		width: 100%;
+		background-color: #3c3c3c;
+		padding: 5vw;
+		border-radius: 5vw;
+		margin-top: 10vw;
+	}
+
+	.blocks__head-h2 {
+		color: #fff;
+		font-size: 14vw;
+		letter-spacing: -1vw;
+		font-weight: 800;
+		line-height: 15vw;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.blocks__card-imgs {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.blocks__card-head {
+		color: #fff;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.blocks__card-head-1 {
+		font-size: 3.5vw;
+		font-weight: 300;
+	}
+	.blocks__card-head-2 {
+		font-size: 6vw;
+		font-weight: 800;
+		letter-spacing: 1px;
+	}
+	.blocks__card-options {
+		color: #fff;
+		display: flex;
+		flex-direction: column;
+		gap: 5vw;
+		margin-top: 5vw;
+	}
+	.blocks__card-options-h {
+		font-size: 4.5vw;
+		margin: 0;
+	}
+	.blocks__card-options-ul {
+		display: flex;
+		flex-direction: column;
+		gap: 4.5vw;
+	}
+	.blocks__card-options-li {
+		display: flex;
+		align-items: flex-start;
+		gap: 3vw;
+		font-size: 4vw;
+		line-height: 5vw;
+	}
+	.blocks__card-options-li img {
+		width: 5vw;
+	}
+	.blocks__card-options-line {
+		width: 100%;
+		height: 1px;
+		opacity: 0.5;
+		background-color: #fff;
+		margin-top: 7vw;
+	}
+	.blocks__card-values {
+		margin-top: 7vw;
+		margin-bottom: 5vw;
+	}
+	.blocks__card-values-ul {
+		display: flex;
+		flex-direction: column;
+		gap: 4.5vw;
+	}
+	.blocks__card-values-li {
+		color: #fff;
+		display: flex;
+		align-items: flex-start;
+		gap: 3vw;
+		font-size: 4vw;
+		line-height: 5vw;
+	}
+	.blocks__card-values-li img {
+		width: 5vw;
+	}
 }
