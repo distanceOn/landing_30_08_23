@@ -528,4 +528,102 @@
 	.blocks__card-values-li img {
 		width: 5vw;
 	}
+
+	.plans {
+		background-image: url(../assets/imgs/bg__green.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 20vw 3.5vw 10vw;
+	}
+	.plans__head {
+		font-size: 7vw;
+		letter-spacing: -4px;
+		text-align: center;
+		font-weight: 800;
+		line-height: 12vw;
+	}
+	.plans__head-h {
+		word-spacing: 4px;
+		color: #ecddb8;
+	}
+
+	.plans__head-block {
+		display: flex;
+		justify-content: center;
+		gap: 4vw;
+		align-items: center;
+		color: #fff;
+	}
+	.plans__head-block img {
+		width: 10vw;
+	}
+
+	.plans__options {
+		display: flex;
+		gap: 3vw;
+	}
+	.plans__option {
+		color: #19bc7b;
+		display: flex;
+		align-items: flex-start;
+		font-size: 3vw;
+		font-weight: 500;
+		gap: 1vw;
+	}
+	.plans__option img {
+		width: 4vw;
+	}
+	.plans__option h5 {
+		margin: 0;
+	}
+	.plans__option_opacity {
+		color: #c5c5c5;
+		margin-left: auto;
+		margin-right: 10vw;
+		margin-top: 2vw;
+		width: fit-content;
+	}
+
+	.plans__blocks {
+		display: flex;
+		font-size: 2vw;
+		font-weight: 500;
+		color: #fff;
+		margin-left: 5vw;
+		gap: 1vw;
+		margin-top: 2vw;
+	}
+
+	.plans__block-1 {
+		border-bottom-left-radius: 2vw;
+	}
+
+	.plans__block {
+		background-color: hsl(156, 77%, 42%);
+		padding: 1vw 5vw 1vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 1vw;
+		transform: skew(-32deg);
+	}
+
+	.plans__block * {
+		transform: skew(32deg);
+	}
+
+	.plans__block img {
+		margin-right: 4vw;
+	}
+	.plans__block_opacity {
+		text-align: center;
+		padding: 3vw 2.5vw 3vw;
+		border-top-right-radius: 2vw;
+		background-color: rgba(25, 190, 124, 0.1);
+	}
+	.plans__block_opacity * {
+		opacity: 0.7;
+	}
 }
