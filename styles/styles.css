@@ -728,4 +728,41 @@
 		font-weight: 800;
 		text-align: center;
 	}
+	ul {
+		list-style-type: none;
+	}
+
+	.list {
+		background-color: #000;
+		padding: 0 7vw 30vw;
+	}
+
+	.list_grey {
+		color: #bcbcbc;
+	}
+	.list__yellow {
+		color: #ecddb8;
+	}
+
+	.list__ul {
+		display: flex;
+		flex-direction: column;
+		gap: 4vw;
+	}
+
+	.list__h {
+		font-size: 5vw;
+		font-weight: 800;
+		letter-spacing: -2px;
+		padding-top: 5vw;
+		padding-bottom: 5vw;
+	}
+
+	.list__li {
+		display: flex;
+		gap: 4vw;
+		align-items: flex-start;
+		font-size: 4vw;
+		font-weight: 500;
+	}
 }
