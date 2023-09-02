@@ -958,4 +958,69 @@
 		font-weight: 500;
 		text-align: center;
 	}
+
+	.main__edu {
+		background-color: #000;
+		padding: 0 3.5vw 25vw;
+	}
+
+	.edu__h {
+		font-size: 12vw;
+		line-height: 12vw;
+		font-weight: 800;
+		letter-spacing: -3px;
+		text-align: center;
+		padding-bottom: 10vw;
+	}
+
+	.edu__cards {
+		display: flex;
+		flex-direction: column;
+		gap: 10vw;
+	}
+
+	.edu__card {
+		background-color: #1c2f27;
+		width: 95%;
+		padding: 5vw;
+		border-radius: 5vw;
+		position: relative;
+		color: #fff;
+	}
+
+	.edu__card-bg-img {
+		position: absolute;
+		bottom: -11px;
+		right: -2vw;
+		width: 32vw;
+	}
+
+	.edu__card-bg-digit {
+		position: absolute;
+		color: #fff;
+		right: 7vw;
+		bottom: -1vw;
+		font-size: 10vw;
+		font-weight: 600;
+	}
+
+	.edu__card-head {
+		display: flex;
+		gap: 3vw;
+		align-items: flex-start;
+	}
+	.edu__card-head-img {
+		width: 8vw;
+	}
+
+	.edu__card-head-text {
+		font-size: 5vw;
+		font-weight: 800;
+	}
+
+	.edu__card-p {
+		padding-top: 5vw;
+		font-size: 4vw;
+		font-weight: 300;
+	}
 }
