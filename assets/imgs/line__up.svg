@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?> <svg xmlns="http://www.w3.org/2000/svg" width="441" height="194" viewBox="0 0 441 194" fill="none"> <path d="M41 143L41.2803 142.04L40.6375 141.852L40.2191 142.375L41 143ZM97.5 159.5L97.2197 160.46L97.8729 160.651L98.29 160.113L97.5 159.5ZM146 97V96H145.51L145.21 96.3869L146 97ZM189.5 97V98H189.726L189.93 97.9027L189.5 97ZM253.5 66.5L254.28 65.8742L253.785 65.2567L253.07 65.5973L253.5 66.5ZM288 109.5L287.22 110.126L287.808 110.858L288.576 110.318L288 109.5ZM429.667 6C429.667 8.94552 432.054 11.3333 435 11.3333C437.946 11.3333 440.333 8.94552 440.333 6C440.333 3.05448 437.946 0.666667 435 0.666667C432.054 0.666667 429.667 3.05448 429.667 6ZM1.78087 193.625L41.7809 143.625L40.2191 142.375L0.219131 192.375L1.78087 193.625ZM40.7197 143.96L97.2197 160.46L97.7803 158.54L41.2803 142.04L40.7197 143.96ZM98.29 160.113L146.79 97.6131L145.21 96.3869L96.71 158.887L98.29 160.113ZM146 98H189.5V96H146V98ZM189.93 97.9027L253.93 67.4027L253.07 65.5973L189.07 96.0973L189.93 97.9027ZM252.72 67.1258L287.22 110.126L288.78 108.874L254.28 65.8742L252.72 67.1258ZM288.576 110.318L435.576 6.81766L434.424 5.18234L287.424 108.682L288.576 110.318Z" fill="url(#paint0_linear_320_5688)"></path> <defs> <linearGradient id="paint0_linear_320_5688" x1="427" y1="5.99997" x2="14" y2="200" gradientUnits="userSpaceOnUse"> <stop stop-color="#83F4C7"></stop> <stop offset="1" stop-color="#83F4C7" stop-opacity="0"></stop> </linearGradient> </defs> <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</svg> 

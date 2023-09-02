@@ -534,7 +534,7 @@
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
-		padding: 20vw 3.5vw 10vw;
+		padding: 20vw 3.5vw 20vw;
 	}
 	.plans__head {
 		font-size: 7vw;
@@ -625,5 +625,107 @@
 	}
 	.plans__block_opacity * {
 		opacity: 0.7;
+	}
+	.diff {
+		background-color: #000;
+	}
+
+	.diff__h {
+		font-size: 10vw;
+		letter-spacing: -3px;
+		color: #ebdcb7;
+		line-height: 10vw;
+		text-align: center;
+	}
+
+	.diff__p {
+		font-size: 4vw;
+		letter-spacing: 7px;
+		word-spacing: 5px;
+		color: #fff;
+		text-align: center;
+		margin-top: 3vw;
+		padding-bottom: 10vw;
+	}
+
+	.diff__bg {
+		padding: 0 3.5vw;
+	}
+	.diff__phone {
+		background-image: url(../assets/imgs/phone__academy.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		height: 140vw;
+		position: relative;
+		z-index: 1;
+	}
+	.diff__phone-bg {
+		position: absolute;
+		bottom: 0;
+		background: linear-gradient(to top, black 40%, transparent 100%);
+		height: 59%;
+		width: 100%;
+		z-index: 2;
+	}
+	.diff__line {
+		margin-top: 6vw;
+		margin-left: -20vw;
+	}
+	.diff__dollar-1 {
+		width: 12vw;
+		margin-left: 17vw;
+		padding-top: 10vw;
+	}
+
+	.diff__dollar-2-block {
+		position: absolute;
+		top: 0;
+		margin-top: 24vw;
+		right: 0;
+		margin-right: 23vw;
+	}
+
+	.diff__dollar-2 {
+		width: 12vw;
+	}
+
+	.diff__line-small {
+		position: absolute;
+		top: 0;
+		right: 0;
+		padding-top: 18vw;
+	}
+	.diff__falling-2 {
+		position: absolute;
+		right: 0;
+		margin-top: 9vw;
+		top: 0;
+	}
+	.diff__blocks {
+		color: #fff;
+		position: absolute;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		z-index: 100;
+		margin-top: 10vw;
+	}
+
+	.diff__blocks-item {
+		border-radius: 2vw;
+		padding: 2vw 4vw;
+		background: linear-gradient(to right, black -20%, #0a5336 100%);
+	}
+
+	.diff__blocks-title {
+		font-size: 2vw;
+		font-weight: 300;
+		text-align: center;
+	}
+	.diff__blocks-money {
+		font-size: 4vw;
+		font-weight: 800;
+		text-align: center;
 	}
 }

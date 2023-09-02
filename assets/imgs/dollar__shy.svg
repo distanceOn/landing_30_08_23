@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?> <svg xmlns="http://www.w3.org/2000/svg" width="41" height="49" viewBox="0 0 41 49" fill="none"> <g filter="url(#filter0_d_320_5692)"> <path d="M23.2097 16.9073C23.2097 16.3338 22.982 15.8783 22.5265 15.541C22.0711 15.1868 21.447 15.0097 20.6543 15.0097C19.8446 15.0097 19.1952 15.153 18.706 15.4398C18.2338 15.7265 17.9976 16.0892 17.9976 16.5277C17.9976 16.9157 18.141 17.2362 18.4277 17.4892C18.7313 17.7422 19.094 17.9446 19.5157 18.0964C19.9542 18.2482 20.5783 18.4253 21.388 18.6278C22.5687 18.9145 23.5217 19.2097 24.247 19.5133C24.9892 19.8 25.6217 20.2555 26.1446 20.8796C26.6844 21.5037 26.9543 22.347 26.9543 23.4097C26.9543 25.0965 26.4483 26.37 25.4362 27.2302C24.441 28.0905 23.0663 28.5712 21.3121 28.6724C21.4639 29.7182 21.5735 30.4435 21.641 30.8483H19.0856L19.4145 28.6471C17.8121 28.5121 16.5048 28.0398 15.4928 27.2302C14.4976 26.4037 14 25.2314 14 23.7133L14.0253 23.2073H17.441L17.4157 23.5868C17.4157 24.2615 17.6603 24.7844 18.1494 25.1555C18.6386 25.5266 19.347 25.7121 20.2747 25.7121C21.3543 25.7121 22.1217 25.5519 22.5772 25.2314C23.0494 24.9109 23.2856 24.4977 23.2856 23.9916C23.2856 23.5868 23.1422 23.2579 22.8555 23.0049C22.5687 22.7519 22.2061 22.5495 21.7675 22.3977C21.3458 22.2458 20.7386 22.0687 19.9458 21.8663C18.7988 21.5964 17.8458 21.3097 17.0868 21.0061C16.3446 20.7025 15.7036 20.2217 15.1639 19.5639C14.641 18.9061 14.3795 18.0205 14.3795 16.9073C14.3795 15.541 14.8434 14.4615 15.7711 13.6687C16.6988 12.8591 17.9133 12.3699 19.4145 12.2012C19.2795 11.2229 19.1699 10.4892 19.0856 10H21.641C21.5398 10.5566 21.4302 11.2819 21.3121 12.1759C22.8976 12.2771 24.1711 12.7241 25.1326 13.5169C26.1109 14.2928 26.6001 15.4061 26.6001 16.8567V17.135H23.2097V16.9073Z" fill="#19BC7B"></path> </g> <defs> <filter id="filter0_d_320_5692" x="0" y="0" width="40.9541" height="48.8483" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"> <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood> <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix> <feOffset dy="4"></feOffset> <feGaussianBlur stdDeviation="7"></feGaussianBlur> <feComposite in2="hardAlpha" operator="out"></feComposite> <feColorMatrix type="matrix" values="0 0 0 0 0.0980392 0 0 0 0 0.737255 0 0 0 0 0.482353 0 0 0 1 0"></feColorMatrix> <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_320_5692"></feBlend> <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_320_5692" result="shape"></feBlend> </filter> </defs> <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</svg> 
