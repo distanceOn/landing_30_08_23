@@ -882,4 +882,80 @@
 		opacity: 0.5;
 		text-align: center;
 	}
+
+	.main__digit {
+		background-color: #000;
+		padding: 0 3.5vw;
+	}
+
+	.digit__h {
+		line-height: 6vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		font-size: 12vw;
+		font-weight: 800;
+		letter-spacing: -2px;
+		align-items: center;
+		padding-bottom: 20vw;
+	}
+
+	.digit__cards {
+		padding: 0 10vw;
+		display: flex;
+		flex-direction: column;
+		gap: 20vw;
+	}
+
+	.digit__card {
+		position: relative;
+		background-image: url(../assets/imgs/digit__bg.svg);
+		width: 100%;
+		background-repeat: no-repeat;
+		background-size: contain;
+		padding-top: 12vw;
+		padding-left: 8vw;
+		padding-bottom: 10vw;
+	}
+	.digit__card-h {
+		font-size: 17vw;
+		color: #19bc7b;
+		font-weight: 800;
+		letter-spacing: -2px;
+		position: absolute;
+		top: -13vw;
+		left: 7vw;
+	}
+
+	.digit__card-p1 {
+		color: #fff;
+		display: flex;
+		align-items: center;
+		gap: 3vw;
+		font-size: 5vw;
+	}
+
+	.digit__card-p2 {
+		color: #fff;
+		font-size: 5vw;
+		font-weight: 200;
+		margin-top: 5vw;
+	}
+	.digit__card_dollar {
+		position: absolute;
+		top: 18vw;
+		width: 12vw;
+		right: -20px;
+	}
+
+	.digit__footer {
+		padding-top: 10vw;
+		padding-bottom: 30vw;
+	}
+	.digit__footer-p {
+		color: #fff;
+		font-size: 5vw;
+		font-weight: 500;
+		text-align: center;
+	}
 }
