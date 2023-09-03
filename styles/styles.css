@@ -1023,4 +1023,78 @@
 		font-size: 4vw;
 		font-weight: 300;
 	}
+
+	.main__sub {
+		background-color: #000;
+		padding: 0 3.5vw 20vw;
+	}
+
+	.sub {
+		position: relative;
+		z-index: 1;
+		background-image: url(../assets/imgs/bg__sub.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		padding-top: 15vw;
+		padding-left: 5vw;
+		padding-right: 5vw;
+		padding-bottom: 5vw;
+		border-radius: 10vw;
+	}
+
+	.sub__content {
+		z-index: 3;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.sub__logo {
+		z-index: 2;
+		position: absolute;
+		bottom: 48vw;
+
+		left: 36vw;
+	}
+
+	.sub__h {
+		font-size: 12vw;
+		font-weight: 800;
+		letter-spacing: -3px;
+		color: #ebdcb7;
+		line-height: 12vw;
+		text-align: center;
+	}
+
+	.sub__p {
+		color: #fff;
+		font-size: 4vw;
+		padding-top: 5vw;
+		text-align: center;
+	}
+	.sub__cost {
+		font-size: 5vw;
+		font-weight: 500;
+		color: #fff;
+		text-align: center;
+		padding-bottom: 3vw;
+	}
+	.sub__desc {
+		color: #fff;
+		font-size: 4vw;
+		font-weight: 100;
+		opacity: 0.5;
+		text-align: center;
+	}
+	.sub__value {
+		color: #fff;
+		font-size: 5vw;
+		font-weight: 200;
+		text-align: center;
+		opacity: 0.8;
+	}
+	.sub__money {
+		width: 74vw;
+	}
 }
