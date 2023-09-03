@@ -1180,4 +1180,25 @@
 		font-weight: 500;
 		font-size: 4vw;
 	}
+	.footer {
+		background-color: #282828;
+		padding: 15vw 12vw 20vw;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 30vw;
+		color: #fff;
+		font-size: 5vw;
+	}
+	.footer__head {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		gap: 5vw;
+	}
+	.footer__p {
+		opacity: 0.4;
+		margin-top: -5vw;
+	}
 }
